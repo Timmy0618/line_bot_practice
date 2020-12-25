@@ -1,0 +1,90 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "資料來自：蘭德索爾圖書館",
+                        "size": "xxs",
+                        "color": "#1DB446",
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "日和的技能說明",
+                        "weight": "bold",
+                        "color": "#1DB446",
+                        "size": "md",
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "url": "https://pcredivewiki.tw/static/images/skill/icon_skill_1001.png",
+                "size": "md",
+                "flex": 1,
+                "margin": "lg"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "日和衝擊",
+                        "weight": "bold",
+                        "color": "#1DB446",
+                        "size": "lg",
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "類型",
+                        "size": "sm",
+                        "color": "#555555",
+                        "flex": 1
+                    },
+                    {
+                        "type": "text",
+                        "text": "必殺技",
+                        "size": "sm",
+                        "color": "#111111",
+                        "flex": 5,
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "效果",
+                        "size": "sm",
+                        "color": "#555555",
+                        "flex": 1
+                    },
+                    {
+                        "type": "text",
+                        "text":"對敵方單體造成 34733 【30.0 + 30.0*技能等級 + 2.4 *atk】的物理傷害。,對範圍內的敵人造成 15630 【13.5 + 13.5*技能等級 + 1.08 *atk】的物理傷害。  範圍：【400】。","size":"sm","color":"#111111","flex":5,"wrap":true}]},{"type":"box","layout":"horizontal","contents":[{"type":"text","text":"描述","size":"sm","color":"#555555","flex":1},{"type":"text","text":"對面前的 1 名敵人造成大幅度的物理傷害，並造成附近小範圍內的所有敵人中幅度的物理傷害。","size":"sm","color":"#111111","flex":5,"wrap":true}]}]}}

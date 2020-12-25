@@ -1,0 +1,121 @@
+{
+    "type": "bubble",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "資料來自：蘭德索爾圖書館",
+                        "size": "xxs",
+                        "color": "#1DB446",
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "{Character}的技能說明",
+                        "weight": "bold",
+                        "color": "#1DB446",
+                        "size": "md",
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "image",
+                "url": "{Image}",
+                "size": "md",
+                "flex": 1,
+                "margin": "lg"
+            },
+            {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "{Name}",
+                        "weight": "bold",
+                        "color": "#1DB446",
+                        "size": "lg",
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "類型",
+                        "size": "sm",
+                        "color": "#555555",
+                        "flex": 1
+                    },
+                    {
+                        "type": "text",
+                        "text": "{Type}",
+                        "size": "sm",
+                        "color": "#111111",
+                        "flex": 5,
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "效果",
+                        "size": "sm",
+                        "color": "#555555",
+                        "flex": 1
+                    },
+                    {
+                        "type": "text",
+                        "text": "{Effect}",
+                        "size": "sm",
+                        "color": "#111111",
+                        "flex": 5,
+                        "wrap": true
+                    }
+                ]
+            },
+            {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "描述",
+                        "size": "sm",
+                        "color": "#555555",
+                        "flex": 1
+                    },
+                    {
+                        "type": "text",
+                        "text": "{Description}",
+                        "size": "sm",
+                        "color": "#111111",
+                        "flex": 5,
+                        "wrap": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -6,6 +6,7 @@ var linebot = require('linebot');
 var charac = require('./character.js');
 var user = require('./user_instruction.js');
 var pudding = require('./pudding_bot.js');
+const { testing } = require("./funcTest.js");
 
 var bot = linebot({
   channelId: '1583242058',
@@ -48,6 +49,8 @@ async function check(text, SourceId) {
   console.log('tag: ' + tag + 'name: ' + name + 're: ' + re);
 
   switch (tag) {
+    case "#功能測試":
+      return testing();
     case "#圖片":
       return charac.select_img(name);
     case "#技能":
